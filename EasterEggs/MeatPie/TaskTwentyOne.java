@@ -4,7 +4,7 @@ public class TaskTwentyOne{
         Scanner inputCollector = new Scanner(System.in);
 
         System.out.println("Base?");
-        int base = inputCollector.nextInt();
+        string base = inputCollector.nextInt();
 
         System.out.println("height?");
         int height = inputCollector.nextInt();

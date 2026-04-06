@@ -1,9 +1,8 @@
-public class TaskThirteen {
+public class TaskForteen {
 
     public static void main(String[] args) {
 
-       String City = "Lagos State";
-
+       int
  System.out.printf(%s %s "I live in" City); 
 
 

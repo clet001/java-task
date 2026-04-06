@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TaskSixteen{
+public class TwentyEight{
     public static void main(String[] args) {
         Scanner inputCollector = new Scanner(System.in);
 
@@ -8,10 +8,10 @@ public class TaskSixteen{
 
        
 
-        int multiply = (age1) * 5;
+        int Devide = (age1) / 3;
          
 
-            System.out.printf("%s %d", "The multiplication is", multiply);
+            System.out.printf("%s %d", "The devision is", devide);
 
 
 
