@@ -10,15 +10,15 @@ import java.util.Scanner;
 
 
 
-int Speed = 1;
 
 
-   if (Speed <= 1){
+
+   if (Speed == 0){
         System.out.println("Stationary");
     }     
 
     else{ 
-    if (speed >= 40){
+    if (speed >= 1 && speed <= 40){
     System.out.println("Slow");
     }
 
