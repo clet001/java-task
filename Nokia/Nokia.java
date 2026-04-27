@@ -45,7 +45,7 @@ System.out.println(PhoneBook);
 System.out.println("Enter Option");
 
 int output = inputCollector.nextInt();
-  
+break;  
     
    case 2:
             String Search = """
@@ -53,7 +53,7 @@ int output = inputCollector.nextInt();
     """;
 System.out.println(Search);
 System.out.println("Search"); 
-    
+break;    
 
 case 3:
             String ServiceNos = """

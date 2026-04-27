@@ -1,19 +1,28 @@
 import java.util.Scanner;
+
 public class TaskOne{
     public static void main(String[] args){
 
+Scanner InputCollector = new Scanner(System.in)
 
-for(int count = 1; count <= 10; count++){
+int scores;
+int number = 1
+int total = 0
+
+while(number<=10){
+System.out.print("Enter the scores:")
+scores= inputCollector.nextInt();
+total+=scores;
+number++
+
+System.out.printf("The sum is %d", total);
 
 
 
-if(count + count == 10){
-
-System.out.print(count);
 }
 
 
-}
+
 
 }
 
